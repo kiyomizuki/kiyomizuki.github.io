@@ -19,9 +19,6 @@ _Go look at my projects, he says, waving his fist at the viewer..._
 
   <p>- TBA</p>
 
-<body>
-</body>
-
 <footer>
   Created by Sheer Willpower and Caffeine.
 </footer>
