@@ -13,9 +13,9 @@ _Go look at my projects, he says, waving his fist at the viewer..._
   <h1>CT20: Intro to Creative Coding (2025)</h1>
   <div id="main">
     
-  <p>- <a href="https://github.com/kiyomizuki/kiyomizuki.github.io/blob/main/Project1/p5.js">Project 01</a></p>
-  <p>- <a href="https://github.com/kiyomizuki/kiyomizuki.github.io/blob/main/CreativeCode01/p5.js">Creative Code 01</a></p>
-  <p>- <a href="https://github.com/kiyomizuki/kiyomizuki.github.io/blob/main/Project2/p5.js">Project 02</a></p>
+  <p>- <a href="https://github.com/kiyomizuki/kiyomizuki.github.io/blob/main/Project1/index.html">Project 01</a></p>
+  <p>- <a href="https://github.com/kiyomizuki/kiyomizuki.github.io/blob/main/CreativeCode01/index.html">Creative Code 01</a></p>
+  <p>- <a href=" https://github.com/kiyomizuki/kiyomizuki.github.io/blob/main/Project2/index.html">Project 02</a></p>
 
   <h2>CT120: Intermediate Creative Coding (2025)</h2>
   <div id="main">
