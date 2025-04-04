@@ -1,1 +1,11 @@
+# Project 2 Documentation
+My project is meant to encapsulate my mental state and demonstrate how I see my mental illness or mental illness in general. It was different from my original conceptualization of this project. But I caught the flu, and my mood dropped, and the project became something I used to vent my feelings. As a result, the project shows that I am competent but that my emotions were exploding and insane. The duality of this outward projection of competence and the internal struggle I’ve faced are things that I think about often because it was a major factor in my childhood, greatly impacting how difficult it was for me to get needed help as a child.
+
+The short version of that story is that when I was younger, I needed accommodations, and the school at large was denying them because my “grades were too high.” I have always been able to function through the depression and suicidality (and as a child, other issues) that I experience, so no one thinks I need help or assistance. Which, as the disabled and mentally ill person in question, sucks. I think those are the emotions that come through or that I put into this project.
+
+As for my relationship with technology, I think that it was also showcased in this piece. Technology is addictive but soothing, mesmerizing even. And so I made a piece that was mesmerizing to look at, mimicking the attraction we have to screens. Everything in the piece can repeat itself just like algorithms. This piece can also be seen as a visual representation of how technology had felt for me in stressful times in my life. This is especially true given that I’ve come of age with social media.
+
+That aside, though, I learned a lot from this project. I was very new to p5.js, and everything I learned and did for this art piece was new. It glitched out the first few times until I figured it out. I broke my code a few times and had to ask Lizzy and other friends for help. It was a learning curve, and I am still not satisfied with what I made, but between my skill level and flu symptoms, this is the best it will be. In the end, it isn’t too bad if I do say so myself. I am proud of what I was able to accomplish and learn from this project.
+
+
 
