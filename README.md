@@ -1,4 +1,30 @@
-# kiyomizuki.github.io
-**CT120: Intermediate Creative Coding**
+# kiyomizuki.github.io | Kiyo's CT Projects :)
+*This was made for CT120: Intermediate Creative Coding. I have no idea if I did this right!*
 
-This repository holds the work done in Spring Quarter 2025 for CT120: Intermediate Creative Coding by Kiyo.
+_Hey! Do you have nothing better to do? Why not look at this and see the projects I've done in CT? Are they great? Meh, that's subjective._
+
+_Still, assignments are assignments at the end of the day :)_
+
+_Go look at my projects, he says, waving his fist at the viewer..._
+ 
+</head>
+</head>
+
+  <h1>CT20: Intro to Creative Coding (2025)</h1>
+  <div id="main">
+    
+  <p>- <a href="https://editor.p5js.org/kiyomizuki/full/w8Wt3CLrq">Project 01</a></p>
+  <p>- <a href="https://editor.p5js.org/kiyomizuki/full/kE3R6UD4S">Creative Code 01</a></p>
+  <p>- <a href="https://editor.p5js.org/kiyomizuki/full/onTbRLH5a">Project 02</a></p>
+
+  <h2>CT120: Intermediate Creative Coding (2025)</h2>
+  <div id="main">
+
+  <p>- TBA</p>
+
+<body>
+</body>
+
+<footer>
+  Created by Sheer Willpower and Caffeine.
+</footer>
