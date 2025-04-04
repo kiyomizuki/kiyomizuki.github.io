@@ -7,9 +7,6 @@ _Still, assignments are assignments at the end of the day :)_
 
 _Go look at my projects, he says, waving his fist at the viewer..._
  
-</head>
-</head>
-
   <h1>CT20: Intro to Creative Coding (2025)</h1>
   <div id="main">
     
