@@ -1,4 +1,6 @@
-<header>
+<!DOCTYPE html>
+<html>
+ <header>
 <h1>kiyomizuki.github.io | Kiyo's CT Projects :)</h1>
 </header>
 <body>
@@ -28,3 +30,4 @@ _Go look at my projects, he says, waving his fist at the viewer..._
 <footer>
   Created by Sheer Willpower and Caffeine.
 </footer>
+</html>
