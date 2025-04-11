@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
- <header style="background-color:powderblue;">
+ <header>
   <h1>kiyomizuki.github.io | Kiyo's CT Projects :)</h1>
   <img src="bannerct120.jpg" alt="BanGDream" width="500" height="150">
 </header>
-<body style="background-color:powderblue;">
+<body>
  
   <p><i>This was made for CT120: Intermediate Creative Coding. I have no idea if I did this right!</i></p>
  
