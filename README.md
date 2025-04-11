@@ -27,8 +27,7 @@
    <p>- TBA</p>
    <p>- TBA</p>
    <p>- TBA</p>
+  
+   <p>Created by Sheer Willpower and Caffeine.</p>
 </body>
-<footer>
-  <p>Created by Sheer Willpower and Caffeine.</p>
-</footer>
 </html>
