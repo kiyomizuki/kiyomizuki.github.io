@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <header style="background-color:powderblue;">
   <h1>kiyomizuki.github.io | Kiyo's CT Projects :)</h1>
