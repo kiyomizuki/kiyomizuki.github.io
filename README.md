@@ -1,6 +1,10 @@
-# kiyomizuki.github.io | Kiyo's CT Projects :)
-*This was made for CT120: Intermediate Creative Coding. I have no idea if I did this right!*
-
+<header>
+<h1>kiyomizuki.github.io | Kiyo's CT Projects :)</h1>
+</header>
+<body>
+ 
+_This was made for CT120: Intermediate Creative Coding. I have no idea if I did this right!_
+ 
 _Hey! Do you have nothing better to do? Why not look at this and see the projects I've done in CT? Are they great? Meh, that's subjective._
 
 _Still, assignments are assignments at the end of the day :)_
@@ -18,7 +22,7 @@ _Go look at my projects, he says, waving his fist at the viewer..._
   <div id="main">
 
   <p>- TBA</p>
-
+</body>
 <footer>
   Created by Sheer Willpower and Caffeine.
 </footer>
