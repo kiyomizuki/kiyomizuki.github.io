@@ -30,7 +30,8 @@ function preload() {
     }
 
 function setup() {
-  createCanvas(600, 500);
+ let canvas = createCanvas(600, 500);
+	canvas.parent('#sketch-holder');
   colorMode(HSB);
 
   // Initializing particle system
