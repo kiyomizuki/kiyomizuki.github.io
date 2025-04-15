@@ -1,6 +1,6 @@
 function setup() {
  let canvas = createCanvas(600, 800);
-  canvas.parent('#sketch-holder');
+  canvas.parent('#sketchHolder');
 }
 
 function draw() {
