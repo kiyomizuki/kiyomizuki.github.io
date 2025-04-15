@@ -1,7 +1,7 @@
 <html>
 <header style="background-color:powderblue;">
   <h1>kiyomizuki.github.io | Kiyo's CT Projects :)</h1>
-  <img src="bannerct120.jpg" alt="BanGDream" width="500" height="150">
+  <img src="bannerct120.jpg" alt="AnimeGame" width="500" height="150">
 </header>
 <body style="background-color:powderblue;">
  
