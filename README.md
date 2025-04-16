@@ -23,7 +23,7 @@
   <h2>CT120: Intermediate Creative Coding (2025)</h2>
   <div id="intermed">
 
-   <p>- <a href="https://kiyomizuki.github.io/InterationProject/index.html">Iteration Project</a></p>
+   <p>- <a href="https://kiyomizuki.github.io/IterationProject/index.html">Iteration Project</a></p>
    <p>- <a href="https://kiyomizuki.github.io/JSONPoem/index.html">.JSON Poem</a></p>
    <p>- TBA</p>
   
