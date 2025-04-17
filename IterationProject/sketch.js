@@ -34,7 +34,7 @@ function preload() {
     }
 
 function setup() {
-  createCanvas(1000, 500);
+  let canvas = createCanvas(1000, 500);
   canvas.parent('#sketchHolder');
   colorMode(HSB);
 
