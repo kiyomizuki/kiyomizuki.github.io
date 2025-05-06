@@ -1,11 +1,27 @@
 <!DOCTYPE html>
 <html>
+  <!-- Dependencies -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
+
+<!-- CSS -->
+<link rel="stylesheet" href="build/ableplayer.min.css" type="text/css"/>
+
+<!-- JavaScript -->
+<script src="build/ableplayer.min.js"></script>
 <head>
 <title>Kiyo's Technics and Time Project May 2025</title>
 </head>
 
 <body>
 test
+
+<video id="video1" data-able-player preload="auto" width="480" height="360" poster="path_to_image.jpg">
+  <source type="video/webm" src="path_to_video.webm" data-desc-src="path_to_described_video.webm"/>
+  <source type="video/mp4" src="path_to_video.mp4" data-desc-src="path_to_described_video.mp4"/>
+  <track kind="captions" src="path_to_captions.vtt"/>
+  <track kind="descriptions" src="path_to_descriptions.vtt"/>
+</video>
 </body>
 
 </html>
