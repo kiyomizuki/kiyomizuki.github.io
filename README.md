@@ -25,6 +25,6 @@
 
    <p>- <a href="https://kiyomizuki.github.io/IterationProject/index.html">Iteration Project</a></p>
    <p>- <a href="https://kiyomizuki.github.io/JSONPoem/index.html">.JSON Poem</a></p>
-   <p>- TBA</p>
+   <p>- <a href="https://kiyomizuki.github.io/TechnicsTime/index.html">Technics & Time Project</a></p>
   
    <p>Created by Sheer Willpower and Caffeine.</p>
