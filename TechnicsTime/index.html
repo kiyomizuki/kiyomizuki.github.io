@@ -11,18 +11,37 @@
 <!-- JavaScript -->
 <script src="build/ableplayer.min.js"></script>
 <script>
-  video.addEventListener("timeupdate", function(){
-    if (this.currentTime > 10){
-      this.playbackRate = this.playbackRate + 0.5;
-    }
-    if (this.playbackRate > 7){
-      this.playbackRate = 0.5;
-      this.currentTime = this.currentTime - 35;
-    }
-      document.querySelector("rate").textContent; = this.playbackRate;
-  })
-    
-    )
+        let video = document.querySelector("video");
+        let counter = 0;
+
+
+        let go = async function () {
+            await waitForVideo(video);
+            video.style.display = "block";
+        }
+
+        let waitForVideo = async function (vid) {
+            counter++;
+            return new Promise(function (resolve, reject) {
+                vid.addEventListener("canplay", function () {
+                    resolve();
+                }, { once: true });
+            })
+        }
+
+        video.addEventListener("timeupdate", function(){
+            if (this.currentTime > 10){
+                this.playbackRate = this.playbackRate + .05;
+            }
+            if (this.playbackRate > 6){
+                this.playbackRate = 0.5;
+                this.currentTime = this.currentTime - 40;
+            }
+            document.querySelector("#rate").textContent = this.playbackRate;
+        })
+
+        go();
+  
 </script>
 <head>
 <title>Technics & Time Project (2025)</title>
