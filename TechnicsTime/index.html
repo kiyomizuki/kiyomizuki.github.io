@@ -11,24 +11,6 @@
 <!-- JavaScript -->
 <script src="build/ableplayer.min.js"></script>
 <script>
-        let video = document.querySelector("video");
-        let counter = 0;
-
-
-        let go = async function () {
-            await waitForVideo(video);
-            video.style.display = "block";
-        }
-
-        let waitForVideo = async function (vid) {
-            counter++;
-            return new Promise(function (resolve, reject) {
-                vid.addEventListener("canplay", function () {
-                    resolve();
-                }, { once: true });
-            })
-        }
-
         video.addEventListener("timeupdate", function(){
             if (this.currentTime > 7){
                 this.playbackRate = this.playbackRate + 2;
@@ -39,8 +21,6 @@
             }
             document.querySelector("#rate").textContent = this.playbackRate;
         })
-
-        go();
   
 </script>
 <head>
