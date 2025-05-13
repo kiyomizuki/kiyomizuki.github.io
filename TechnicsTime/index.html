@@ -11,17 +11,6 @@
 <!-- JavaScript -->
 <script src="build/ableplayer.min.js"></script>
 <script>
-        video.addEventListener("timeupdate", function(){
-            if (this.currentTime > 7){
-                this.playbackRate = this.playbackRate + 2;
-            }
-            if (this.playbackRate > 5){
-                this.playbackRate = 2;
-                this.currentTime = this.currentTime - 50;
-            }
-            document.querySelector("#rate").textContent = this.playbackRate;
-        })
-  
 </script>
 <head>
 <title>Technics & Time Project (2025)</title>
@@ -29,7 +18,7 @@
 <body style="background-color:powderblue;">
 <body>
 <p id="rate"></p>
-<p>This is my Technics and Time Project. I struggled with this project and spent a long time trying to get the video to display/have controls. Simple mistakes, really. Eventually, I just stopped trying to use the video I wanted to use and instead selected something I found on the Internet Archive which turned out to be the English dub of the Hello Kitty cartoon. I haven't seen this since I was a kid. This project made me cry because I am bad at coding. Lesson learned: Never try to do what you want, just do the simplest thing possible.</p>
+<p>This is my Technics and Time Project. I struggled with this project and spent a long time trying to get the video to display/have controls. Simple mistakes. Eventually, I just stopped trying to use the video I wanted to use and instead selected something I found on the Internet Archive, which turned out to be the English dub of the Hello Kitty cartoon. I haven't seen this since I was a kid. This project made me cry because I am bad at coding. Lesson learned: Never try to do what you want; just do the simplest thing possible. I couldn't get anything to affect the video.</p>
   <!-- Holder div for when I need to put the video somewhere, apparently? -->
 <div id=chevadiv>
 <video width="480" height="360" controls>
