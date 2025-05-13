@@ -30,12 +30,12 @@
         }
 
         video.addEventListener("timeupdate", function(){
-            if (this.currentTime > 10){
-                this.playbackRate = this.playbackRate + .05;
+            if (this.currentTime > 7){
+                this.playbackRate = this.playbackRate + 2;
             }
-            if (this.playbackRate > 6){
-                this.playbackRate = 0.5;
-                this.currentTime = this.currentTime - 40;
+            if (this.playbackRate > 5){
+                this.playbackRate = 2;
+                this.currentTime = this.currentTime - 50;
             }
             document.querySelector("#rate").textContent = this.playbackRate;
         })
