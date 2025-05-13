@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-<!-- I don't know if this is needed?? --> 
+<!-- I don't know if this is needed?? LMAO --> 
   <!-- Dependencies -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js"></script>
@@ -10,14 +10,28 @@
 
 <!-- JavaScript -->
 <script src="build/ableplayer.min.js"></script>
-<script></script>
+<script>
+  video.addEventListener("timeupdate", function(){
+    if (this.currentTime > 10){
+      this.playbackRate = this.playbackRate + 0.5;
+    }
+    if (this.playbackRate > 7){
+      this.playbackRate = 0.5;
+      this.currentTime = this.currentTime - 35;
+    }
+      document.querySelector("rate").textContent; = this.playbackRate;
+  })
+    
+    )
+</script>
 <head>
 <title>Technics & Time Project (2025)</title>
 </head>
 <body style="background-color:powderblue;">
 <body>
-<p>This is my Technics and Time Project. I struggled with this project and spent a long time trying to get the video to display/have controls. Simple mistakes, really. Eventually I just stopped trying to use the video I wanted to use and instead selected something I found on the Internet Archive which turned out to be the English dub of the Hello Kitty cartoon. I haven't seen this since I was a kid. This project made me cry because I am bad at coding. Lesson learned, never try to do what you want, just do the simplest thing possible.</p>
-<!-- Holder div for when I need to put the video somewhere, apparently? -->
+<p id="rate"></p>
+<p>This is my Technics and Time Project. I struggled with this project and spent a long time trying to get the video to display/have controls. Simple mistakes, really. Eventually, I just stopped trying to use the video I wanted to use and instead selected something I found on the Internet Archive which turned out to be the English dub of the Hello Kitty cartoon. I haven't seen this since I was a kid. This project made me cry because I am bad at coding. Lesson learned: Never try to do what you want, just do the simplest thing possible.</p>
+  <!-- Holder div for when I need to put the video somewhere, apparently? -->
 <div id=chevadiv>
 <video width="480" height="360" controls>
   <source src="https://dn720408.ca.archive.org/0/items/hansel-and-gretel/1.%20Hansel%20and%20Gretel.mp4">
