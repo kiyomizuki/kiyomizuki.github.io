@@ -12,8 +12,6 @@
 <!-- JavaScript -->
 <script src="build/ableplayer.min.js"></script>
 <script>
-  <script>
-
     let video = document.querySelector("video");
     let text = document.querySelector("#text");
 
@@ -33,6 +31,16 @@
     go();
   
 //pericarp
+
+  pericarp.cue(video, "00:00:39", "00:00:42",
+        function () {
+            video.pause();
+            text.textContent = "TLet's hope this works?? Press play to proceed.";
+            text.style.opacity = 1;
+        }, function(){
+            text.style.opacity = 0;
+        }
+    );
     pericarp.cue(video, "00:00:45", "00:01:00",
         function () {
             if (video.playbackRate > 1) {
