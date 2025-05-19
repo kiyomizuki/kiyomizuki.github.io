@@ -18,8 +18,7 @@
 </head>
 <body style="background-color:powderblue;">
 <body>
-<p id="rate"></p>
-<p>This is my Technics and Time Project. I struggled with this project and spent a long time trying to get the video to display/have controls. Simple mistakes. Eventually, I just stopped trying to use the video I wanted to use and instead selected something I found on the Internet Archive, which turned out to be the English dub of the Hello Kitty cartoon. I haven't seen this since I was a kid. This project made me cry because I am bad at coding. Lesson learned: Never try to do what you want; just do the simplest thing possible. I couldn't get anything to affect the video. Even after fixing things with the professor, it took time to make anything respond to what I was doing.</p>
+<p id="text" style="opacity: 0;">This is my Technics and Time Project. I struggled with this project and spent a long time trying to get the video to display/have controls. Simple mistakes. Eventually, I just stopped trying to use the video I wanted to use and instead selected something I found on the Internet Archive, which turned out to be the English dub of the Hello Kitty cartoon. I haven't seen this since I was a kid. This project made me cry because I am bad at coding. Lesson learned: Never try to do what you want; just do the simplest thing possible. I couldn't get anything to affect the video. Even after fixing things with the professor, it took time to make anything respond to what I was doing.</p>
   <!-- Holder div for when I need to put the video somewhere, apparently? -->
 <div id=chevadiv>
 <video data-able-player width="480" height="360" controls>
@@ -59,8 +58,8 @@
     );
     pericarp.cue(video, "00:00:45", "00:01:00",
         function () {
-            if (video.playbackRate > 1) {
-                video.playbackRate = video.playbackRate - 0.5;
+            if (video.playbackRate > 0.5) {
+                video.playbackRate = video.playbackRate + 1.5;
                 video.currentTime = pericarp.toSec("00:50");
             } else {
                 video.playbackRate = 0.5;
