@@ -31,16 +31,15 @@
     }
 
     go();
-
-    //pericarp
-    //between 0:45 go back to 0:55, and up the speed
+  
+//pericarp
     pericarp.cue(video, "00:00:45", "00:01:00",
         function () {
-            if (video.playbackRate > 0.25) {
-                video.playbackRate = video.playbackRate + 0.2;
+            if (video.playbackRate > 1) {
+                video.playbackRate = video.playbackRate - 0.5;
                 video.currentTime = pericarp.toSec("00:50");
             } else {
-                video.playbackRate = 2;
+                video.playbackRate = 0.5;
             }
 
         });
