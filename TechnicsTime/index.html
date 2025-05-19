@@ -18,7 +18,8 @@
 </head>
 <body style="background-color:powderblue;">
 <body>
-<p id="text" style="opacity: 0;">This is my Technics and Time Project. I struggled with this project and spent a long time trying to get the video to display/have controls. Simple mistakes. Eventually, I just stopped trying to use the video I wanted to use and instead selected something I found on the Internet Archive, which turned out to be the English dub of the Hello Kitty cartoon. I haven't seen this since I was a kid. This project made me cry because I am bad at coding. Lesson learned: Never try to do what you want; just do the simplest thing possible. I couldn't get anything to affect the video. Even after fixing things with the professor, it took time to make anything respond to what I was doing.</p>
+<p>This is my Technics and Time Project. I struggled with this project and spent a long time trying to get the video to display/have controls. Simple mistakes. Eventually, I just stopped trying to use the video I wanted to use and instead selected something I found on the Internet Archive, which turned out to be the English dub of the Hello Kitty cartoon. I haven't seen this since I was a kid. This project made me cry because I am bad at coding. Lesson learned: Never try to do what you want; just do the simplest thing possible. I couldn't get anything to affect the video. Even after fixing things with the professor, it took time to make anything respond to what I was doing.</p>
+<p id="text" style="opacity: 0;">TBA</p> 
   <!-- Holder div for when I need to put the video somewhere, apparently? -->
 <div id=chevadiv>
 <video data-able-player width="480" height="360" controls>
@@ -50,8 +51,9 @@
   pericarp.cue(video, "00:00:39", "00:00:42",
         function () {
             video.pause();
-            text.textContent = "TLet's hope this works?? Press play to proceed.";
+            text.textContent = "Let's hope this works?? Press play to proceed.";
             text.style.opacity = 1;
+            text.style.fontWeight = bold;
         }, function(){
             text.style.opacity = 0;
         }
