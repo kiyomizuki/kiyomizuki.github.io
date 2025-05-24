@@ -23,9 +23,20 @@
 <head>
   <style>
     body {
-  font-family: 'Brush Script MT', cursive;
+@font-face {
+   font-family: myFirstFont;
+   src: url(sansation_light.woff);
 }
-  
+
+@font-face {
+   font-family: myFirstFont;
+   src: url(sansation_bold.woff);
+   font-weight: bold;
+}
+
+* {
+   font-family: myFirstFont;
+}
   a:link, a:visited {
   background-color: #33ceff;
   color: white;
