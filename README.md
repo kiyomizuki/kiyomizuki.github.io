@@ -20,7 +20,7 @@
    <p>- <a href="https://kiyomizuki.github.io/CreativeCode01/index.html">Creative Code 01</a></p>
    <p>- <a href="https://kiyomizuki.github.io/Project2/index.html">Project 02</a></p>
 
-  <h2>CT120: Intermediate Creative Coding (2025)</h2>
+  <h1>CT120: Intermediate Creative Coding (2025)</h1>
   <div id="intermed">
 
    <p>- <a href="https://kiyomizuki.github.io/IterationProject/index.html">Iteration Project</a></p>
